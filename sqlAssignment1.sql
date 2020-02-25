@@ -71,4 +71,3 @@ from film_actor
 where actor_id in (select actor_id
 				   from actor
 				   where first_name like "SEAN" AND last_name like "WILLIAMS");
-
